@@ -9,7 +9,7 @@
      */
     angular
         .module('ngPasswordStrength')
-        .directive('ngPasswordStrength', ngPasswordStrength);
+        .directive('ngPasswordStrength', ['PasswordStrengthFormulaService', 'PasswordStrengthEntropyService',  ngPasswordStrength]);
 
     function ngPasswordStrength(PasswordStrengthFormulaService, PasswordStrengthEntropyService) {
         return {

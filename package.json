@@ -43,7 +43,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "main": "dist/scripts/ng-password-strength.js",
+  "main": "dist/scripts/ng-password-strength.min.js",
   "scripts": {
     "test": "grunt test"
   },
